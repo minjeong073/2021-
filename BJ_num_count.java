@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class BJ2577 {
+public class num_count {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BJ10818 {
+public class max_min {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

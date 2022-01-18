@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		if (x<0 || x>90 || y<0 || y>90) {
+			System.out.println(-1);
+		}
+		else {
+			int LH_x = x;
+			int LH_y = y + 10;
+			int RH_x = x + 10;
+			int RH_y = y + 10;
+			int RL_x = x + 10;
+			int RL_y = y;
+		
+			System.out.println("LH " + LH_x + " " + LH_y);
+			System.out.println("LL " + x + " " + y);
+			System.out.println("RH " + RH_x + " " + RH_y);
+			System.out.println("RL " + RL_x + " " + RL_y);
+		}
+		
+	}
+}
